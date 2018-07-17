@@ -8,7 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-          提交到缓存区域还是比较好的
+          提交到缓存区域还是比较好的dev
         </a>
       </li>
       <li>
