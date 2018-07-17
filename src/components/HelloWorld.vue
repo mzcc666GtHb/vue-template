@@ -8,7 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-          123123123123123
+          提交到缓存区域还是比较好的
         </a>
       </li>
       <li>
