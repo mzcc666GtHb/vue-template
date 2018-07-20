@@ -1,5 +1,4 @@
 'use strict'
 module.exports = {
-  NODE_ENV: '"production"',
-  API_ROOT:'"//10.1.10.20"'
+  NODE_ENV: '"production"'
 }

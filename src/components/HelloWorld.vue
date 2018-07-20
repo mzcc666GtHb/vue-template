@@ -6,8 +6,6 @@
 </template>
 
 <script>
-  import api from '@/service/ajax.js'
-  console.log(api)
   export default {
     name: 'HelloWorld',
     data() {
@@ -21,7 +19,15 @@
      }
     },
     mounted () {
+      this.$http.chance({
+        'searchType':1,
+        'pageNum':1,
+        'token':localStorage.getItem('token')
+      }).then((res)=>{
+        console.log(res)
+      }).catch((err)=>{
 
+      })
     }
   }
 </script>
